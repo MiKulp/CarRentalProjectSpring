@@ -33,8 +33,7 @@ public class Car {
     @Column (nullable = false)
     private String colour;
 
-    @Column (nullable = false)
-    private String mileage;
+    private Integer mileage;
 
     @Column (nullable = false)
     private Boolean status;
