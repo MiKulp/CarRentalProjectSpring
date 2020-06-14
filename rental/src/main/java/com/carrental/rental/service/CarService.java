@@ -22,7 +22,6 @@ public class CarService {
         return carRepository.findAll();
     }
 
-
     public Boolean addCar(Car car) {
         carRepository.save(car);
         return true;
